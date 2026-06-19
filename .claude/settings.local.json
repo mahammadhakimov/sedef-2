@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(php artisan *)",
+      "Bash(vendor/bin/pint --dirty --format agent)",
+      "Bash(composer show *)",
+      "Bash(perl -i -pe 's/^DB_HOST=.*/DB_HOST=mysql/' .env)",
+      "Bash(docker compose *)",
+      "Bash(DB_HOST=127.0.0.1 php artisan db:show --counts)",
+      "Bash(DB_HOST=127.0.0.1 php artisan about --only=filament)",
+      "Bash(DB_HOST=127.0.0.1 php artisan route:list --path=adminka)",
+      "Bash(php /tmp/slider_transform.php)"
+    ]
+  }
+}
