@@ -9,7 +9,9 @@
       "Bash(DB_HOST=127.0.0.1 php artisan db:show --counts)",
       "Bash(DB_HOST=127.0.0.1 php artisan about --only=filament)",
       "Bash(DB_HOST=127.0.0.1 php artisan route:list --path=adminka)",
-      "Bash(php /tmp/slider_transform.php)"
+      "Bash(php /tmp/slider_transform.php)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:8080/)",
+      "Bash(curl -s http://localhost:8080/)"
     ]
   }
 }

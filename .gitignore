@@ -25,3 +25,11 @@ _ide_helper.php
 Homestead.json
 Homestead.yaml
 Thumbs.db
+.cursor
+.claude
+.junie
+.env.example
+.vendor
+.docker
+.docker-compose.yml
+
