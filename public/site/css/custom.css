@@ -1,0 +1,48 @@
+/*
+ * Custom site overrides (loaded after all theme styles).
+ */
+
+/* Header brand logo — shown at its native 50px height (was capped at 38px,
+ * which made the wordmark hard to read) and vertically centred in the nav bar. */
+.menuzord-brand img {
+    max-height: 120px;
+    width: auto;
+    padding-bottom: 5px;
+}
+
+.header-nav .menuzord-brand {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+@media only screen and (max-width: 767px) {
+    .menuzord-brand img {
+        max-height: 48px;
+    }
+
+    .header-nav .menuzord-brand {
+        margin-top: 6px;
+        margin-bottom: 6px;
+    }
+}
+
+/* Keep the logo on the same row as the menu, both vertically centred.
+ * Applied only on desktop (>= 901px) where the horizontal menu is shown;
+ * below 900px the theme's responsive hamburger layout is left untouched. */
+@media (min-width: 901px) {
+    .header-nav .menuzord {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header-nav .menuzord-brand {
+        float: none;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .header-nav .menuzord-menu {
+        float: none;
+    }
+}

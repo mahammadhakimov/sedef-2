@@ -1,0 +1,36 @@
+/*
+ * Custom site font — Inter.
+ * Inter fully supports the Azerbaijani alphabet (ə ı ü ö ç ş ğ).
+ * Applied to every text element while deliberately leaving the icon
+ * fonts (FontAwesome, Pe-icon-7-stroke, flaticon, glyphicons) untouched.
+ */
+
+body,
+h1, h2, h3, h4, h5, h6,
+p, a, span, li, ul, ol, dl, dt, dd,
+blockquote, label, small, strong, em, b,
+input, textarea, select, button, optgroup, option,
+table, th, td, caption,
+.btn, .navbar, .nav, .menuzord-menu, .menuzord-menu a,
+.media-heading, .heading, .entry-title, .name, .title,
+.section-title, .funfact h2, .funfact h5, .opening-hours,
+.tp-caption, .form-control, .widget {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+}
+
+/* Re-assert icon fonts so the override above never breaks any glyph icon. */
+.fa {
+    font-family: 'FontAwesome' !important;
+}
+
+[class^="pe-7s-"], [class*=" pe-7s-"] {
+    font-family: 'Pe-icon-7-stroke' !important;
+}
+
+[class^="flaticon-"], [class*=" flaticon-"] {
+    font-family: 'flaticon-set-medical' !important;
+}
+
+.glyphicon {
+    font-family: 'Glyphicons Halflings' !important;
+}

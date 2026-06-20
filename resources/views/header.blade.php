@@ -34,17 +34,16 @@
             <div class="container">
                 <nav id="menuzord-right" class="menuzord blue bg-lightest">
                     <a class="menuzord-brand pull-left flip" href="javascript:void(0)">
-                        <img src="{{asset('site/images/logo-wide.png')}}" alt="">
+                        <img src="{{asset('site/images/depertments/logo2.png')}}"  alt="">
                     </a>
-                    <div id="side-panel-trigger" class="side-panel-trigger"><a href="#"><i class="fa fa-bars font-24 text-gray"></i></a></div>
                     <ul class="menuzord-menu onepage-nav">
-                        <li class="active"><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#doctors">Doctors</a></li>
-                        <li><a href="#departments">Departments</a></li>
-                        <li><a href="#blog">Blog</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li class="active"><a href="#home">Ana Səhifə</a></li>
+                        <li><a href="#about">Haqqımızda </a></li>
+                        <li><a href="#services">Xidmətlər</a></li>
+                        <li><a href="#doctors">Həkimlər</a></li>
+                        <li><a href="#departments">Şöbələr</a></li>
+                        <li><a href="#blog">Yeniliklər</a></li>
+                        <li><a href="#contact">Əlaqə</a></li>
                     </ul>
                 </nav>
             </div>
